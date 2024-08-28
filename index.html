@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monedito - Aprende Finanzas Jugando</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="Versiones Monedito/Monedito Principal.png" type="image/png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #f8f9fa, #e9ecef);
+            color: #333;
+            transition: all 0.3s ease;
+        }
+
+        header {
+            background-color: #0b2b2f;
+            color: white;
+            padding: 15px 0;
+        }
+
+        header .navbar-brand {
+            font-size: 1.5em;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        header .nav-link {
+            color: white;
+            transition: color 0.3s ease, border-bottom 0.3s ease;
+        }
+
+        header .nav-link:hover {
+            color: #007bff;
+            border-bottom: 1px solid #007bff;
+        }
+
+        .hero-section {
+            text-align: center;
+            padding: 100px 20px;
+            background: linear-gradient(135deg, #0b2b2f, #1d4f53);
+            color: white;
+        }
+
+        .hero-section h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+        }
+
+        .hero-section p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+
+        .features {
+            padding: 50px 20px;
+        }
+
+        .features h2 {
+            text-align: center;
+            margin-bottom: 40px;
+            color: #0b2b2f;
+        }
+
+        .features .col-md-4 {
+            margin-bottom: 30px;
+        }
+
+        .testimonial-section {
+            background-color: #fcf7e2;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .testimonial-section h2 {
+            margin-bottom: 40px;
+            color: #0b2b2f;
+        }
+
+        .cta-section {
+            text-align: center;
+            padding: 50px 20px;
+            background: linear-gradient(135deg, #0b2b2f, #1d4f53);
+            color: white;
+        }
+
+        .cta-section h2 {
+            margin-bottom: 20px;
+        }
+
+        .faq-section {
+            padding: 50px 20px;
+        }
+
+        .faq-section h2 {
+            text-align: center;
+            margin-bottom: 40px;
+            color: #0b2b2f;
+        }
+
+        footer {
+            background-color: #0b2b2f;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer a {
+            color: #007bff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+            color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Encabezado -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark container">
+            <a class="navbar-brand" href="#">Monedito</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#Inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Caracteristicas">Características</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Testimonios">Testimonios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Descargar">Descargar</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Sección de Presentación -->
+    <section class="hero-section">
+        <div class="container" id="Inicio">
+            <h1>Aprende Finanzas Jugando con Monedito</h1>
+            <p>La app educativa que te enseña finanzas personales a través de sesiones interactivas y divertidas.</p>
+            <img src="Versiones Monedito/Monedito_App.png" width="394px" height="658px" alt="Imagen de Monedito en un móvil" class="img-fluid">
+            <div class="mt-4">
+                <a href="#Descargar" class="btn btn-light btn-lg">Descargar Ahora</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Características -->
+    <section class="features" id="Caracteristicas">
+        <div class="container">
+            <h2>¿Cómo Monedito te ayuda a mejorar tus finanzas?</h2>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <img src="Versiones Monedito/Monedito Estudiando.png" width="300px" height="300px" alt="Icono 1" class="mb-3">
+                    <h4>Lecciones Interactivas</h4>
+                    <p>Aprende conceptos financieros clave mediante juegos y desafíos interactivos.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="Versiones Monedito/Monedito Saludando.png" width="300px" height="300px" alt="Icono 2" class="mb-3">
+                    <h4>Progreso Personalizado</h4>
+                    <p>Monitorea tu aprendizaje y avanza a tu propio ritmo, desbloqueando nuevas lecciones.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="Versiones Monedito/Monedito Pulgares.png" width="300px" height="300px" alt="Icono 3" class="mb-3">
+                    <h4>Recompensas por Aprender</h4>
+                    <p>Gana recompensas al completar desafíos y mejora tus habilidades financieras.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Testimonios -->
+    <section class="testimonial-section" id="Testimonios">
+        <div class="container">
+            <h2>Lo que dicen nuestros usuarios</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <blockquote>
+                        "Monedito hizo que aprender finanzas sea divertido y accesible." - <strong>Juan P.</strong>
+                    </blockquote>
+                </div>
+                <div class="col-md-6">
+                    <blockquote>
+                        "Gracias a Monedito, ahora entiendo cómo manejar mi dinero mejor." - <strong>María R.</strong>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Descargar -->
+    <section class="cta-section" id="Descargar">
+        <div class="container">
+            <h2>¡Empieza a aprender hoy mismo!</h2>
+            <p>Disponible en todas las plataformas móviles.</p>
+            <img src="Versiones Monedito/icons8-google-play-store-nuevo-96.png" alt="Google">
+            <img src="Versiones Monedito/icons8-app-store-de-apple-96.png" alt="Apple">
+        </div>
+    </section>
+
+    <!-- Sección de Preguntas Frecuentes -->
+    <section class="faq-section">
+        <div class="container">
+            <h2>Preguntas Frecuentes</h2>
+            <div class="accordion" id="faqAccordion">
+                <div class="card">
+                    <div class="card-header" id="faq1">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="true"
+                                aria-controls="collapse1">
+                                ¿Cómo funcionan los juegos educativos?
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapse1" class="collapse show" aria-labelledby="faq1" data-parent="#faqAccordion">
+                        <div class="card-body">
+                            Los juegos están diseñados para enseñarte conceptos financieros clave de manera divertida e interactiva.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="faq2">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse2"
+                                aria-expanded="false" aria-controls="collapse2">
+                                ¿Es necesario tener conocimientos previos?
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapse2" class="collapse" aria-labelledby="faq2" data-parent="#faqAccordion">
+                        <div class="card-body">
+                            No, Monedito está diseñado para todos, desde principiantes hasta aquellos con experiencia en finanzas.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="faq3">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse3"
+                                aria-expanded="false" aria-controls="collapse3">
+                                ¿La app es gratuita?
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapse3" class="collapse" aria-labelledby="faq3" data-parent="#faqAccordion">
+                        <div class="card-body">
+                            Sí, Monedito ofrece contenido gratuito y también una versión premium con funciones adicionales.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de Página -->
+    <footer>
+        <div class="container" id="Contacto">
+            <p>© 2024 Monedito. Todos los derechos reservados.</p>
+            <p><a href="#">Términos y Condiciones</a> | <a href="#">Política de Privacidad</a></p>
+            <p>Síguenos en: <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">Instagram</a></p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
